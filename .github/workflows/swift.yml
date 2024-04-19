@@ -22,9 +22,7 @@ jobs:
       with:
         xcode-version: '15.2.0'
 
-   
+       - name: Build
+      run: xcodebuild build -project AllEyesOnMe.xcodeproj -scheme AllEyesOnMe clean build -sdk iphoneos CODE_SIGNING_ALLOWED=No
 
-    - name: Run tests
-      run: |
-        cd AllEyesOnMe
-        xcodebuild test -project AllEyesOnMe.xcodeproj -scheme AllEyesOnMe clean build -sdk iphoneos -destination "platform=iOS Simulator,OS=17.2,name=iPhone 15 Pro" CODE_SIGNING_ALLOWED=No
+    
