@@ -14,6 +14,7 @@
 		4EF2E0482BD1D62D0030633D /* AllEyesOnMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2E0472BD1D62D0030633D /* AllEyesOnMeTests.swift */; };
 		4EF2E0522BD1D62D0030633D /* AllEyesOnMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2E0512BD1D62D0030633D /* AllEyesOnMeUITests.swift */; };
 		4EF2E0542BD1D62D0030633D /* AllEyesOnMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2E0532BD1D62D0030633D /* AllEyesOnMeUITestsLaunchTests.swift */; };
+		4EF2E0612BD1EB990030633D /* SumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2E0602BD1EB990030633D /* SumViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4EF2E04D2BD1D62D0030633D /* AllEyesOnMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllEyesOnMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF2E0512BD1D62D0030633D /* AllEyesOnMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllEyesOnMeUITests.swift; sourceTree = "<group>"; };
 		4EF2E0532BD1D62D0030633D /* AllEyesOnMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllEyesOnMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EF2E0602BD1EB990030633D /* SumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4EF2E0362BD1D62B0030633D /* AllEyesOnMeApp.swift */,
 				4EF2E0382BD1D62B0030633D /* ContentView.swift */,
+				4EF2E0602BD1EB990030633D /* SumViewModel.swift */,
 				4EF2E03A2BD1D62C0030633D /* Assets.xcassets */,
 				4EF2E03C2BD1D62C0030633D /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EF2E0392BD1D62B0030633D /* ContentView.swift in Sources */,
+				4EF2E0612BD1EB990030633D /* SumViewModel.swift in Sources */,
 				4EF2E0372BD1D62B0030633D /* AllEyesOnMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
